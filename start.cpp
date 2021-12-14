@@ -1,31 +1,17 @@
 #include <iostream>
-
 using namespace std;
-
-class fruit
-{
-    private:
-        string taste;
-
-    public:
-        void setdetails(string t)
-        {
-            taste=t;
-        }
-
-        void display()
-        {
-            cout<<"Taste:"<<taste<<endl;
-        }
-};
 
 int main()
 {
-    fruit mango; // mango is an object
-    mango.setdetails("Sweet and Sour");
-    mango.display();
+    int x = 0;
+    if(x==0)
+        cout << "if"<<endl;
+    else
+        cout << "else"<<endl;
 
-    fruit apple;
-    apple.setdetails("Sweet");
-    apple.display();
+    x==0 ?  "zero":"non zero";
+
+    //cout << (x==0 ?  "zero1":"non zero1");
+
+    return 0;
 }
